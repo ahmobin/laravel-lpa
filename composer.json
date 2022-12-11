@@ -1,0 +1,32 @@
+{
+    "name": "ahmobin/laravel-lpa",
+    "description": "Laravel LPA is an implementation of ORM that manage crud operations.",
+    "type": "library",
+    "homepage": "https://github.com/ahmobin/laravel-lpa",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ahmobin\\LaravelLpa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abu Horaira Mobin",
+            "email": "ahmobin.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ahmobin\\LaravelLpa\\LPAServiceProvider"
+            ],
+            "aliases": {
+                "LPA": "Ahmobin\\LaravelLpa\\Facade\\LPA"
+            }
+        }
+    }
+}
