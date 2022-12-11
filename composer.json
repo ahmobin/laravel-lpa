@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ahmobin\\LaravelLpa\\LPAServiceProvider"
+                "Ahmobin\\LaravelLpa\\LpaServiceProvider"
             ],
             "aliases": {
                 "LPA": "Ahmobin\\LaravelLpa\\Facade\\LPA"
