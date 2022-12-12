@@ -25,7 +25,7 @@
                 "Ahmobin\\LaravelLpa\\LpaServiceProvider"
             ],
             "aliases": {
-                "LPA": "Ahmobin\\LaravelLpa\\Facade\\LPA"
+                "LPA": "Ahmobin\\LaravelLpa\\Facade\\Lpa"
             }
         }
     }
